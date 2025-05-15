@@ -40,34 +40,88 @@ A simple and responsive weather web application that fetches real-time current w
    git clone https://github.com/Aritrraa/weather-forecast-app.git
    cd weather-forecast-app
 
-   
-🛠️ Built With
-HTML5 – Markup structure
 
-CSS3 – Styling and layout
+## 🧠 How It Works
 
-JavaScript – Logic and API interaction
+The app fetches weather data from **OpenWeatherMap API**.
 
-OpenWeatherMap API – Weather and forecast data
+On searching a city, it displays:
+- ✅ Current temperature  
+- ✅ Weather condition and icon  
+- ✅ Hourly temperature forecasts with icons (next 8 time intervals = 24 hours)
 
-🧾 Project Structure
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Page structure /  Markup structure for the weather UI  
+- **CSS3** – Styling and layout  / Clean styling and layout
+- **JavaScript (ES6)** – API interaction and UI logic   / Core logic and interactivity
+- **OpenWeatherMap API** – Weather and forecast data  
+- **Web APIs** – `fetch`, DOM manipulation
+
+---
+
+## 🔊 APIs Used
+Current Weather API
+
+5 Day / 3 Hour Forecast API
+
+
+## 🗂️ Project Structure
+
 bash
 Copy
 Edit
-weather-forecast-app/
-├── index.html
-├── style1.css
-├── script1.js
-└── screenshots/
-    ├── initial.png
-    └── result.png
-🙏 Acknowledgements
-OpenWeatherMap
+├── index.html            # Main HTML page
+├── style1.css            # CSS styles
+├── script1.js            # JavaScript for logic and API calls
+└── screenshots/          # Folder for demo screenshots
+yaml
+Copy
+Edit
 
-Google Fonts – Poppins
+---
 
-Icons from OpenWeatherMap
+## 🔐 Privacy & Data
 
-📜 License
-This project is licensed under the MIT License.
+All API requests are client-side.
+
+No user data is stored or tracked.
+
+Weather icons and data are fetched directly from OpenWeatherMap servers.
+
+
+## 📄 License
+
+This project is licensed under the **MIT License** – feel free to use and modify!
+
+---
+
+## 🙏 Acknowledgements
+
+- [OpenWeatherMap](https://openweathermap.org/)
+- [Google Fonts – Poppins](https://fonts.google.com/specimen/Poppins)
+- Weather icons provided by OpenWeatherMap
+
+---
+
+## 🚧 Future Improvements
+
+Add temperature unit toggle (Celsius ↔ Fahrenheit)
+
+Include wind speed, humidity, and pressure data
+
+Store and display previous search history
+
+Enable dark mode for better accessibility
+
+Allow location-based weather fetching (via geolocation API)
+
+
+## 👤 Author
+
+Developed by **[Aritra Das](https://github.com/Aritrraa)**
+
+---
 

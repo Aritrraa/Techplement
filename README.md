@@ -1,84 +1,42 @@
 This is a Weather App. Please enter the city name to view the weather.
+# 🌤️ Weather Forecast App
 
-🌦️ WeatherNow – Real-Time Weather Forecast App
-WeatherNow is a sleek and responsive weather forecasting web app built using HTML5, CSS3, and vanilla JavaScript. It provides real-time current weather data and 3-hour interval forecasts for the next 24 hours, fetched directly from the OpenWeatherMap API. Whether you're planning a trip or just curious about the climate, WeatherNow helps you stay informed with up-to-date meteorological data in a clean and interactive interface.
+A simple and responsive weather web application that fetches real-time current weather and 3-hour interval forecasts for any city using the OpenWeatherMap API. Built using HTML, CSS, and JavaScript with a clean and modern UI.
 
-🌐 Live Demo
-[Add your live demo link here, if hosted]
+---
 
-✨ Features
-🔍 City Search: Search any city worldwide to get live weather data.
+## 📸 Screenshots
 
-🌡️ Current Weather Info: Displays temperature, weather condition, and an icon representing the current weather.
+### 🏁 Initial View
+![Initial View](screenshots/initial.png)
 
-🕒 Hourly Forecast: View the next 24 hours' forecast in 3-hour intervals, with icons and temperature.
+### 🔄 Weather Search Result
+![Weather Result](screenshots/result.png)
 
-🌤️ Visual Feedback: Weather icons fetched dynamically from OpenWeatherMap.
+---
 
-📱 Responsive Design: Works perfectly on both desktop and mobile screens.
+## ✨ Features
 
-⚡ Real-Time API Integration: Uses fetch() to asynchronously retrieve data without page reload.
+- 🔍 Search weather by city name
+- 🌡️ View current temperature and weather description
+- 🕒 Hourly forecast in 3-hour intervals (next 24 hours)
+- 📱 Responsive design for all screen sizes
+- 🖼️ Dynamic weather icons from OpenWeatherMap
+- ✅ Error handling for invalid city input
 
-🔁 Dynamic DOM Updates: Clear and refresh data upon each search for better UX.
+---
 
-🚀 Getting Started
-Prerequisites
-A web browser (Chrome, Firefox, etc.)
+## 🚀 Getting Started
 
-Internet connection
+### 📦 Prerequisites
 
-Free API key from OpenWeatherMap
+- Browser (Chrome, Firefox, Edge, etc.)
+- OpenWeatherMap API key – [Get one here](https://openweathermap.org/api)
 
-Setup
-Clone the repository
+### 📂 Setup
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/WeatherNow.git
-cd WeatherNow
-Add your OpenWeatherMap API key
-Edit script1.js and replace the placeholder key:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Aritrraa/weather-forecast-app.git
+   cd weather-forecast-app
 
-js
-Copy
-Edit
-const apiKey = 'YOUR_API_KEY';
-Run the App
-Just open index.html in your browser.
-
-🛠️ Technologies Used
-Frontend:
-
-HTML5 – Semantic structure
-
-CSS3 – Custom styling and layout
-
-JavaScript – Core logic and interactivity
-
-OpenWeatherMap API – Weather and forecast data
-
-📁 Project Structure
-bash
-Copy
-Edit
-├── index.html           # Main HTML page
-├── style1.css           # Custom CSS styles
-├── script1.js           # JavaScript logic for fetching and rendering weather
-🔐 Privacy
-No user data is stored or tracked.
-
-Weather data is fetched securely via OpenWeatherMap API.
-
-📌 Future Improvements
-Add support for geolocation-based weather
-
-Include weekly forecast with charts
-
-Add language and unit switching (°C/°F)
-
-Display weather conditions with background animation
-
-📜 License
-This project is open-source under the MIT License.
-Feel free to use, modify, and share!

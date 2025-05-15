@@ -8,7 +8,7 @@ A simple and responsive weather web application that fetches real-time current w
 ## 📸 Screenshots
 
 ### 🏁 Initial View
-![Initial View](screenshots/initial.png)
+![Initial View](weatherapp1.png)
 
 ### 🔄 Weather Search Result
 ![Weather Result](screenshots/result.png)

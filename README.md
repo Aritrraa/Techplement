@@ -73,10 +73,12 @@ Current Weather API
 bash
 Copy
 Edit
+
 ├── index.html            # Main HTML page
 ├── style1.css            # CSS styles
 ├── script1.js            # JavaScript for logic and API calls
 └── screenshots/          # Folder for demo screenshots
+
 yaml
 Copy
 Edit

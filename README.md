@@ -1,4 +1,5 @@
 This is a Weather App. Please enter the city name to view the weather.
+
 🌦️ WeatherNow – Real-Time Weather Forecast App
 WeatherNow is a sleek and responsive weather forecasting web app built using HTML5, CSS3, and vanilla JavaScript. It provides real-time current weather data and 3-hour interval forecasts for the next 24 hours, fetched directly from the OpenWeatherMap API. Whether you're planning a trip or just curious about the climate, WeatherNow helps you stay informed with up-to-date meteorological data in a clean and interactive interface.
 

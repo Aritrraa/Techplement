@@ -11,7 +11,7 @@ A simple and responsive weather web application that fetches real-time current w
 ![Initial View](weatherapp1.png)
 
 ### 🔄 Weather Search Result
-![Weather Result](screenshots/result.png)
+![Weather Result](weatherapp2.png)
 
 ---
 
@@ -39,4 +39,35 @@ A simple and responsive weather web application that fetches real-time current w
    ```bash
    git clone https://github.com/Aritrraa/weather-forecast-app.git
    cd weather-forecast-app
+
+   
+🛠️ Built With
+HTML5 – Markup structure
+
+CSS3 – Styling and layout
+
+JavaScript – Logic and API interaction
+
+OpenWeatherMap API – Weather and forecast data
+
+🧾 Project Structure
+bash
+Copy
+Edit
+weather-forecast-app/
+├── index.html
+├── style1.css
+├── script1.js
+└── screenshots/
+    ├── initial.png
+    └── result.png
+🙏 Acknowledgements
+OpenWeatherMap
+
+Google Fonts – Poppins
+
+Icons from OpenWeatherMap
+
+📜 License
+This project is licensed under the MIT License.
 
